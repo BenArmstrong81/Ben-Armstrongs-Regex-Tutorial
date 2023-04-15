@@ -30,6 +30,15 @@ I hope you enjoy reading as much as I did creating this for you!
 
 ### Anchors
 
+Anchors are what defines the start and finish of the perameters you are searching for. 
+For example the "^" character signifies the start of the perameters you wish to search for and "$" closes the permaters to search within. The code or perameteres that are written between "^" and "$" are what defines the search and will match a line, word or even a string.
+
+For example: The following regex will match any string that starts with "G'day":
+
+```
+/^G'day$/
+```
+
 ### Quantifiers
 
 ### OR Operator
@@ -42,7 +51,29 @@ I hope you enjoy reading as much as I did creating this for you!
 
 ### Bracket Expressions
 
+Bracket Expressions allow to match a range of characters and are is commonly referred to as a Positive Character Group. The search is performed within square brackets ([]) and allows you to search for characters such as all uppercase letters or all punctuation marks.
+
+Example code snippet: The following regex will match any decimal digit:
+```
+/[0-9]/
+```
+
+Another Bracket Expression example code snippet: The following regex will match any whitespace characters, including line breaks
+```
+[ \t\r\n\v\f]
+```
+
+
 ### Greedy and Lazy Match
+
+The 'Greedy' expression refers to matching the longest pattern possible. And 'Lazy' expression is the opposite, matching the smallest pattern as possible.
+
+Example code snippet: The following 'Lazy' regex will match the shortest possible string that starts with the letter "b" and ends with "a":
+```
+/b.*?a/
+```
+*So it would return Banana and NOT Bananas*
+
 
 ### Boundaries
 
