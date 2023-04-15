@@ -6,7 +6,7 @@ This Regex Tutorial covers the syntax and basic concepts of Regex, as well as ex
 
 ## Summary
 
-In this tutorial I will cover off on the following eleven main Regular Expressions (Regex) components; Anchors, Quantifiers, OR Operators, Character Classes, Flags, Grouping and Capturing, Bracket Expressions, Greedy and Lazy Matching, Boundaries, Back-references, and Look-ahead and Look-behind.
+In this tutorial I will cover off on the following eleven main Regular Expressions (Regex) components; Anchors, Quantifiers, OR Operators, Character Classes, Flags, Grouping and Capturing, Bracket Expressions, Greedy and Lazy Matching, Boundaries, Back-references, and Look-ahead and Look-behind. I will also break down a live example of how to use Regex to match an Email Address.
 
 An example code for each will be provided along with a brief summary of how/what each is used for. The aim is to provide you with a solid foundation so that you gain an understanding of the most commonly used regex components and how to use them effectively in your own projects. 
 I hope you enjoy reading as much as I did creating this for you!
