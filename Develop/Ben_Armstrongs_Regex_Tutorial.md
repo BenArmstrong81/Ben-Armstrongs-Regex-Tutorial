@@ -32,7 +32,9 @@ I hope you enjoy reading as much as I did creating this for you!
 ### Anchors
 
 Anchors are what defines the start and finish of the parameters you are searching for. 
-For example the "^" character signifies the start of the parameters you wish to search for and "$" closes the permitters to search within. The code or parameters that are written between "^" and "$" are what defines the search and will match a line, word or even a string.
+<br/>
+
+For example the "^" character signifies the start of the parameters you wish to search for and the "\$" closes the permitters to search within. The code or parameters that are written between "^" and the "\$" characters are what defines the search and will match a line, word or even a string.
 
 For example: The following regex will match any string that starts with "G'day":
 
