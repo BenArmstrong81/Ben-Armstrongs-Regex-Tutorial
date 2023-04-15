@@ -41,6 +41,13 @@ For example: The following regex will match any string that starts with "G'day":
 
 ### Quantifiers
 
+Quantifiers set the parameters of your search. It does this by limiting the string that your regex matches, this can be be set to limit sections of the string too. For example, the "*" quantifier matches zero or more occurrences of the preceding character, while the "+" quantifier matches one or more occurrences, and "?" qualtifier matches zero or one time.
+
+Example code snippet: The following regex will match any string that contains digits with a length of 3 or more:
+```
+/\d{3,}/
+```
+
 ### OR Operator
 
 ### Character Classes
